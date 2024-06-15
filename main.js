@@ -2,6 +2,7 @@ const {
     Client
 } = require('discord.js')
 const WS = require('./ws/ws')
+const token = process.env['token']
 const config = require('./config.json')
 
 var client = new Client()
